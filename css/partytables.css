@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.party {
+	padding:0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: #CCC;
+	height: auto;
+	
+}
+
+.party table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.party td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.submit-button {
+	color: white;
+	text-shadow: 1px 1px 15px #000;
+	font-size:30px;
+	margin-left:auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.submit-button p {
+	text-align:center;
+}
+
+.submit-button form {
+	display: inline-block;
+	text-align:center;
+}
+

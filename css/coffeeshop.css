@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+.item-features {
+	text-align: left;
+	vertical-align:text-bottom;
+	padding: 20px 0 100px 20px;
+	margin: 0px 0px, 30px, 0px;
+	color: white;
+	background-color: rgba(100, 100, 100, 0.7);
+	text-shadow: 2px 2px 15px #000;
+	overflow: hidden;
+}
+
+.item-features p {
+	color: #eee;
+	font-size: 20px;
+	opacity: 1;
+	width: 60%;
+	float: left;
+	margin: 0px 0px 100px 0px
+}
+.item-features hr {
+	width: 60%;
+	margin: 10px;
+	padding: 0;
+}
+.item-features img {
+	width: 30%;
+	margin: 0;
+	padding: 0 40px 0 0;
+	align: right;
+	float: right;
+}
+.item-features h1 {
+	padding-left: 30px;
+}
+.row {
+	height: 200px;
+}
